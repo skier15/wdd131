@@ -1,0 +1,143 @@
+body {
+    text-align: center;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: "Helvetica", serif;
+    font-weight: 500;
+    
+}  
+
+main {
+    display: grid;
+    grid-template-columns: 800px 400px;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    max-width: 1930px;
+}
+
+.two {
+    color: #80ba7d;
+}
+
+.one {
+    background-color: #49060f;
+}
+
+header {
+    grid-column: 1/3;
+    height: 155px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: #49060f;
+    padding: 15px;
+}
+
+nav a {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: #80ba7d;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+ 
+a:link {
+    color: #80ba7d;
+    cursor: pointer;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+}
+
+.card h2 {
+    padding: 40px;
+    margin: 10px;
+    border: 7px solid #80ba7d;
+    margin-right: 10px;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    
+}
+
+p {
+    font-size: 18px;
+}
+
+.textleft {
+    text-align: left;
+    padding: 10px;
+}
+
+img {
+    height: 150px;
+    padding: 10px;
+}
+
+.mypic {
+    height: 230px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+section {
+    margin-top: 10px;
+}
+
+.one {
+    border: 2px solid #EAD7BB;
+    margin-right: 10px;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+}
+
+.two {
+    border: 2px solid #EAD7BB;
+    margin-left: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+}
+
+ul {
+    font-size: 23px;
+    text-align: left;
+    padding-top: 200px;
+    padding-left: 145px;
+    color:#49060f;
+}
+h3 {
+    color: black;
+}
+footer {
+    grid-row: 4;
+    grid-column: 1/3;
+    margin-top: 20px;
+}
