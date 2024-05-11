@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 | Country Page</title>
+    <meta name="description" content="Country Page Iceland">
+    <meta name="author" content="Irina Groza">
+    <link rel="stylesheet" type="text/css" href="styles/place.css">
+    <link rel="stylesheet" type="text/css" href="styles/place-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Sedan:ital,wght@0,300..800;1,300..800&amp;display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sedan:ital,wght@0,100..900;1,100..900&amp;family=Open+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap"
+        rel="stylesheet">
+    <script src="scripts/place.js" defer=""></script>
+    <script src="scripts/getdates.js" defer=""></script>
+</head>
+
+<body>
+    <header>
+        <h1>ICELAND</h1>
+        <div class="left"></div>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(max-width:750px)" src="images/iceland-map.jpg">
+                <img src="images/iceland.webp" alt="Map of Iceland">
+            </picture>
+           
+            <div class="right"></div>
+        </div>
+        <div class="data">
+            <h2>Data</h2>
+            <div class="data-item">
+                <p class="label">Area:</p>
+                <p class="value">103,125 sq km</p>
+            </div>
+
+            <div class="data-item">
+                <p class="label">Population:</p>
+                <p class="value">373,033</p>
+            </div>
+
+            <div class="data-item">
+                <p class="label">Capital:</p>
+                <p class="value">Reykjavík</p>
+            </div>
+
+            <div class="data-item">
+                <p class="label">Languages:</p>
+                <p class="value">Icelandic,Danish,English</p>
+            </div>
+
+            <div class="data-item">
+                <p class="label">Currency:</p>
+                <p class="value"> Icelandic krona</p>
+            </div>
+
+            <div class="data-item">
+                <p class="label">Time Zone:</p>
+                <p class="value">GMT-1</p>
+            </div>
+
+            <div class="data-item">
+                <p class="label">Calling Code:</p>
+                <p class="value">+354</p>
+            </div>
+
+            <div class="data-item">
+                <p class="label">Internet TLD:</p>
+                <p class="value">.ru</p>
+            </div>
+        </div>
+        <div class="weather">
+            <h2 class="weather-h2">Weather</h2>
+            <img class="weather-icon" src="images/icon.svg" alt="Sea cold with rain">
+            <div class="data-item">
+                <p class="label">Temperature:</p>
+                <p class="value">10°C</p>
+            </div>
+            <div class="data-item">
+                <p class="label">Conditions:</p>
+                <p class="value">Sea cold with rain</p>
+            </div>
+
+            <div class="data-item">
+                <p class="label">Wind:</p>
+                <p class="value">18km/h</p>
+            </div>
+
+            <div class="data-item">
+                <p class="label">Wind Chill:</p>
+                <p class="value"><span id="windchill">N/A</span></p>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <p>©<span id="currentyear">2024</span> | Irina Groza | Iceland</p>
+        <p><span id="lastModified">Last modified: 11/05/2024 21:31:35</span></p>
+    </footer>
+
+
+</body>
+
+</html>
