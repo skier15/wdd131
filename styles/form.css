@@ -30,8 +30,6 @@
     align-items: center;
 }
   
-  
-  /*Header*/
   .container header {
     background-color: var(--backgound-head-foot);
     text-align: center;
@@ -73,11 +71,6 @@
   }
   
 
-  
-
-  
-    
-  
   fieldset {
     border: none;
     margin-top: 1rem;
@@ -87,7 +80,7 @@
     font-size: 14px;
   }
   
-  /* stars */
+  
   input[type="radio"] {
     display: none;
     position: relative;
@@ -165,7 +158,7 @@
     border-color: blueviolet;
   }
   
-  /*FOOTER*/
+  
   .container footer {
     background-color: var(--backgound-head-foot);
     text-align: center;
@@ -182,8 +175,6 @@
     font-family: "Sedan", sans-serif;
   }
   
-  
-  /*page review*/
   
   .message {
     min-height: 70vh;
@@ -208,7 +199,7 @@
     font-size: 20px;
   }
   
-  /*Large View*/
+  
   @media (min-width: 39.5em) {
     .container h1 {
       font-size: 20px;
